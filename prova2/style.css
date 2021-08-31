@@ -1,0 +1,78 @@
+body{
+    background-image:url(background.jpg);
+    background-size: cover;
+    font-family: "helvetica";
+}
+
+.conteiner{
+	background: rgba(0, 0, 0, 0.5);
+    width: 65%;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    border-radius: 15px;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 8%;
+    width: 20%;
+}
+
+h1{
+    color: rgb(30,255,54);
+    margin: 0 0 5px 0 ;
+    text-align: center;
+}
+
+.buttons{
+    margin: auto;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 84%;
+    background-color: rgb(30,255,54)
+}
+
+button{
+    margin: 2px;
+}
+
+h2{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+main > div{
+    display: block;
+    color: white;
+    padding: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 100px;
+    border: 0px;
+    line-height: 1px;
+}
+
+.statocarica{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#carica1{
+    width: 400px;
+    background-color: rgb(255,197,83);
+}
+
+#carica2{
+    width: 650px;
+    background-color: rgb(79,180,73);
+}
+
+#carica3{
+    width: 150px;
+    background-color: rgb(255,48,54)
+}
